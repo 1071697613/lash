@@ -92,10 +92,10 @@ rules:
 - IP-CIDR,112.13.119.18/32,Netease Music
 
 # 去网易云内部分广告
-- DOMAIN,admusicpic.music.126.net,REJECT
-- DOMAIN,iadmat.nosdn.127.net,REJECT
-- DOMAIN,iadmusicmat.music.126.net,REJECT
-- DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+#- DOMAIN,admusicpic.music.126.net,REJECT
+#- DOMAIN,iadmat.nosdn.127.net,REJECT
+#- DOMAIN,iadmusicmat.music.126.net,REJECT
+#- DOMAIN,iadmusicmatvideo.music.126.net,REJECT
 
 # Final
 - MATCH,DIRECT
